@@ -180,6 +180,6 @@ section{
 }  
 .image-container img{
     /* box-shadow: 0 0 20px var(--main-color); */
-    width: 290%;
-    height: 120%;
+    width: 250%;
+    height: 100%;
 }
