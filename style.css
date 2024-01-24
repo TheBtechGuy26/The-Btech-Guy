@@ -88,7 +88,57 @@ section{
 .hero{
     height: 100vh;
     width: 100%;
-    background: url(../The-Btech-Guy/img/background2.png);
+    /* background: url(../img/bg.png); */
     background-position: top right;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.main-content{
+    border: 2px solid #333;
+}
+.main-content h4{
+    font-size: 1.5rem;
+    border: 2px solid #333;
+}
+.main-content h1{
+    font-size: var(--h2-font);
+    font-weight: 900;
+    margin: 20px 0px 20px;
+    line-height: 1.1;
+    border: 2px solid #333;
+}
+.main-content p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    width: 620px;
+    max-width: 100%;
+    color: var(--other-color);
+    line-height: 25px;
+    margin-bottom: 15px;
+    border: 2px solid #333;
+}
+.social{
+    margin-bottom: 40px;
+}
+.social i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: var(--main-color);
+    border-radius: 50%;
+    backdrop-filter: brightness(88%);
+    font-size: 20px;
+    margin-right: 17px;
+    box-shadow: 0 0 20px transparent;
+    cursor: pointer;
+    transition: all .50s ease;
+}
+.social i:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--main-color);
 }
