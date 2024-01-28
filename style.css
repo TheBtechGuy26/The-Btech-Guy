@@ -171,21 +171,23 @@ section{
 .image-container{
     /* border: 2px solid #333; */ 
 
-   /* width: 300px;
-   height: 800px;  */
+   width: 300px;
+   height: 800px;
 
    /* display: inline-block; */
     /* vertical-align: middle;  */
     /* position: absolute; */
 
-   /* right: 200px;
-   top: 10px; */
+   right: 200px;
+   top: 10px; 
+   overflow: hidden;
 }  
 .image-container img{
    /* box-shadow: 0 0 20px var(--main-color); */
 
-   /* width: 250%;
-   height: 100%; */
+   width: 250%;
+   height: 100%;
+   object-fit: cover; 
 }
 
 header.sticky{
@@ -207,7 +209,16 @@ header.sticky{
     width: 100%;
     height: 530px;
     max-width: 530px;
-    border-radius: 50%;
+    border-radius: 60%;
     object-fit: cover;
-    border: 7px solid var(--main-color);
+    border: 3px solid var(--main-color);
+    box-shadow: 0 0 20px var(--main-color);
+}
+.about-text h2{
+    font-size: var(--h2-font);
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.exp-area{
+    margin-bottom: 50px;
 }
